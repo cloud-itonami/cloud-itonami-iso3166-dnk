@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:ooyake-id "gov.dnk"
+  :official-url "https://denmark.dk"
+  :name-en "Denmark"
+  :wikidata "Q35"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "https://denmark.dk"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+}
