@@ -1,0 +1,22 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "dnk.databeskyttelsesloven-2018"
+           :title "Danish Data Protection Act (Databeskyttelsesloven)"
+           :jurisdiction "DNK"
+           :kind :law
+           :law-number "Act No. 502 of 23 May 2018"
+           :url "https://cdn.datatilsynet.dk/datatilsynet/media/7753/danish-data-protection-act.pdf"
+           :url-provenance :official-datatilsynet
+           :enacted-date "2018-05-23"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "dnk.arbejdsmiljoloven"
+           :title "Working Environment Act (Arbejdsmiljøloven)"
+           :jurisdiction "DNK"
+           :kind :law
+           :law-number "Consolidated Act no. 2062 of 16 November 2021"
+           :url "https://at.dk/en/regulations/working-environment-act/"
+           :url-provenance :official-agency-unofficial-translation
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
