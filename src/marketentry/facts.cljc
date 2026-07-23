@@ -14,13 +14,7 @@
           :rep-provenance "https://www.udbud.dk/"
           :corporate-number-owner-authority "Erhvervsstyrelsen / CVR"
           :corporate-number-legal-basis "CVR-nummer"
-          :corporate-number-provenance "https://datacvr.virk.dk/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "SWE" {:name "Sweden" :owner-authority "UHMY" :legal-basis "LOU" :national-spec "e-Avrop" :provenance "https://www.upphandlingsmyndigheten.se/"
-          :required-evidence ["Org.nr record" "e-procurement registration" "Bolagsverket extract" "Authorized-representative record"]}
-   "DEU" {:name "Germany" :owner-authority "e-Vergabe" :legal-basis "GWB/VgV" :national-spec "e-Vergabe" :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract" "e-Vergabe registration record" "USt-IdNr record" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://datacvr.virk.dk/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
